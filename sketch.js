@@ -30,7 +30,7 @@ function draw() {
   angleMode(DEGREES);
   secAngle = map(sec,0,60,0,360);
   minAngle = map(min,0,60,0,360);
-  hrAngle = map(hr,0,hr%12,0,360);
+  hrAngle = map(hr,0,12,0,360);
 
   noFill();
   strokeWeight(7);
